@@ -1,0 +1,86 @@
+// main: main.scss
+
+/*for tablets, Ipads 481px--768px*/
+
+
+
+
+
+
+
+/*for laptop, small screens  769px--1024px*/
+@media screen and (min-width: 648px) {
+    .about-me-text{
+        font-size: 25px;
+    }
+
+    
+    #top{
+        
+        .personal-photo{
+            img{
+                width: 500px;
+            }
+        }
+       
+       
+    }
+    .about-me-container{
+        
+        width: 80%;
+        
+       display: block;
+       text-align: center;
+       margin-bottom: 30%;
+       
+    }
+    .about-me-text{
+        font-size: 2em;
+
+    }
+
+   
+    
+    .icon-container{
+        flex-direction: row;
+        width: 100%;
+        img{
+            width: 80px;
+        }
+    }
+    
+    .style-title{
+        text-align: unset;
+
+    }
+   
+
+    
+}
+
+
+/*for desktop, large screen 1025px--1200px*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*for extra large screen, tv   1201px and more*/
