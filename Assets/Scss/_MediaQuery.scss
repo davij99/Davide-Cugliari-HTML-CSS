@@ -1,0 +1,110 @@
+// main: main.scss
+
+
+
+
+
+
+
+
+
+/*for laptop and tablet 899px ..*/
+@media screen and (min-width: 899px) {
+    
+    .section-style{
+      height: 100vh;
+       width: 100%;
+       
+        
+    }
+    
+    .about-me-text{
+        font-size: 23px;
+    }
+
+    
+    #top{
+        
+        .personal-photo{
+            img{ 
+                width: 300px;
+            }
+        }
+       
+       
+    }
+
+    #About{
+
+        .about-me-container{
+
+        
+            width: 380px;
+        
+            display: block;
+            
+            margin-bottom: 300px;
+        }
+    }
+    #Works{
+        
+
+        
+        
+         .media-display{
+
+            margin-top: 80px;
+            
+             
+             width: 100%;
+             height: 100%;
+             
+             display: flex;
+             flex-direction: row;
+             justify-content: space-around;
+             align-items: center;
+             
+             
+         }
+    }
+    
+    .icon-container{
+        flex-direction: row;
+        width: 100%;
+        img{
+            width: 80px;
+        }
+    }
+    
+    
+   
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*for extra large screen, tv   1201px and more*/
