@@ -216,8 +216,7 @@
 
 /*this class is able to defins the about me text container*/
 .about-me-container {
-  width: 190px;
-  padding: 10px;
+  width: 230px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -243,7 +242,6 @@
   font-family: "source sans pro";
   line-height: 1.7em;
   font-size: 16px;
-  height: 100%;
 }
 
 /*this class defines the text in the section "TOP" and the text in the section "MY WORKS"*/
