@@ -207,7 +207,7 @@
     
     align-self: center;
 
-    
+    padding: 3px;
     
     
    margin-bottom: 150px;
@@ -277,7 +277,7 @@
 /*defines the icon in the section "MY SKILLS"*/
 .icon-container{
    
-    height: 90%;
+    height: 100%;
     
     
     display: flex;
@@ -307,4 +307,14 @@
    
     background-color: $deep-space-sparkle !important; 
     font-family: $textfont !important;
+}
+button{
+    a{
+        text-decoration: none;
+        font-family: $textfont;
+        color: $beige;
+    }
+    a:hover{
+        color: $beige;
+    }
 }

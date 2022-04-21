@@ -222,6 +222,7 @@
   display: flex;
   -ms-flex-item-align: center;
       align-self: center;
+  padding: 3px;
   margin-bottom: 150px;
 }
 
@@ -292,7 +293,7 @@
 
 /*defines the icon in the section "MY SKILLS"*/
 .icon-container {
-  height: 90%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -324,6 +325,16 @@
 .center-form {
   background-color: #4f6367ff !important;
   font-family: "source sans pro" !important;
+}
+
+button a {
+  text-decoration: none;
+  font-family: "source sans pro";
+  color: #eef5dbff;
+}
+
+button a:hover {
+  color: #eef5dbff;
 }
 
 nav {
@@ -364,15 +375,13 @@ nav {
     width: 100%;
   }
   .about-me-text {
-    font-size: 23px;
+    font-size: 1.2em;
   }
   #top .personal-photo img {
     width: 300px;
   }
   #About .about-me-container {
-    width: 380px;
-    display: block;
-    margin-bottom: 300px;
+    width: 400px;
   }
   #Works .media-display {
     margin-top: 80px;
